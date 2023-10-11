@@ -1,10 +1,20 @@
 package at.sma.basics;
 
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class ControlStructurs3 {
     public static void main(String[] args) {
+
+        int i = 0;
+        String s = "jj";
+        float f = 3;
+        double d = 3.56;
+        boolean b = true;
+
+
+
         // Erstelle eine Zufallszahl zwischen 0 und 100
         Random random = new Random();
         int randomNumber = random.nextInt(100);
